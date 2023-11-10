@@ -9,16 +9,37 @@
 <body>
     <div class="container">
         <header>
-            <label for="searchBar">img</label>
-            <input type="text" name="searchBar" id="searchBar">
+            
+            <div id="topHeader">
+                <label for="searchBar"><img src="./icons/searchIcon.svg" class="icon" id="searchIcon" alt="Search icon"></label>
+                <input type="text" name="searchBar" id="searchBar">
+            </div>
 
-            <nav>
 
+            <nav id="topHeaderSide">
+                <img src="./icons/notificationIcon.svg" class="icon">
+                <img src="./img/profilePicture1.png" class="profilePic">
+                <p>Enrique Onaga</p>
+            </nav>
+
+            <div id="bottomHeader">
+                <img src="./img/profilePicture1.png" class="mainProfilePic">
+
+                <div>
+                    <p>Hi there,</p>
+                    <p>Enrique Onaga (@eidy.8)</p>
+                </div>
+            </div>
+            
+            <nav id="bottomHeaderSide">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </nav>
         </header>
 
-        <nav>
-            Dashboard
+        <nav id="dashboard">
+            <div id="logo">Dashboard</div>
             <ul>
                 <li>Home</li>
                 <li>Profile</li>
@@ -33,33 +54,34 @@
                 <li>Privacy</li>
             </ul>
         </nav>
+
         <main>
             <p id="yourProject">Your Projects</p>
             <article>
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                 </div>
                 
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                 </div>
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                 </div>
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                 </div>
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                 </div>
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                 </div>
             </article>
 
@@ -67,13 +89,39 @@
             <aside>
                 <div class="card">
                     <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="cardInfo">_____________________________________</p>
+                    <p>&nbsp;</p>
+                    <p class="title">Article Title</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="cardInfo">_____________________________________</p>
+                    <p>&nbsp;</p>
+                    <p class="title">Article Title</p>
+                    <p class="cardInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
                 <p id="trending">Trending</p>
                 <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                    <p>&nbsp;</p>
+                    <div>
+                        <p>@mr.mustache</p>
+                        <p class="cardInfo">Best Barber In The World</p>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div>
+                        <p>@eidy.8</p>
+                        <p class="cardInfo">Super Cool Project</p>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div>
+                        <p>@ArtPainting</p>
+                        <p class="cardInfo">Professional Painting</p>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div>
+                        <p>@5h1tp05t3r</p>
+                        <p class="cardInfo">Best Memes</p>
+                    </div>
                 </div>
             </aside>
         </main>
